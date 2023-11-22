@@ -15,12 +15,12 @@ def draw_text():
     turtle.penup()
     turtle.goto(0, 180)
     turtle.pendown()
-    turtle.color("black")
+    turtle.color("white")
     turtle.write("I Love You Mam", align="center", font=("Arial", 24, "normal"))
 
 def draw_love_pattern():
     turtle.speed(2)
-    turtle.bgcolor("white")
+    turtle.bgcolor("black")
 
     draw_heart()
     draw_text()
